@@ -1,6 +1,6 @@
 <h1>Detect AdBlock</h1>
-<a href="#simple">Uso simple de Detect AdBlock</a><br>
-<a href="analytics">Detect AdBlock + Google Analytics</a><br><br>
+<a href="#uso-simple-de-detect-adblock">Uso simple de Detect AdBlock</a><br>
+<a href="#detect-adblock--google-analytics">Detect AdBlock + Google Analytics</a><br><br>
 <strong>Detect AdBlock</strong> es una aplicación que nos ayuda a identificar que usuarios están utilizando un bloqueador de anuncios y que usuarios no lo hacen, con dicha aplicación se pueden desarrollar soluciones ante esta problemática, desde recolectar datos con <strong>Google Analitics</strong> hasta bloquear contenido.
 <br><br>
 <strong>Detect AdBlock</strong> funciona de una manera muy simple. Cuando uno visita un sitio web se descarga el fichero HTML junto con sus referencias a ficheros <strong>JavaScript, CSS, imágenes, videos, etc.</strong> AdBlock analiza todos los ficheros y realiza una comparativa con su <strong>“lista negra”</strong>, si encuentra alguna coincidencia, ese dato no se carga. Teniendo conocimiento de cómo funciona <strong>AdBlock</strong> nosotros podemos crear un archivo que coincida con la lista negra <strong>(advertisement.js)</strong> y verificar si este se carga o no, si el archivo se carga damos por hecho que el usuario no está utilizando un bloqueador de anuncios, de lo contrario nos damos cuenta que hace uso de uno. De esta manera es como funciona Detect AdBlock.
